@@ -1,0 +1,33 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  .navbar .brandtitle{ font-size: 15px!important; font-weight: bold; margin-left: 0px!important;} 
+  @media (max-width: 708px) {
+      .navbar .brandtitle{ font-size: 20px!important; font-weight: bold; }
+    .menuleft li a { font-size: 25px!important;}
+    }
+ .menuleft li { margin-left: -15px!important;}
+.menuleftaccordion {padding: 0px!important; margin: 0px!important; cursor: pointer;} 
+.menuleftaccordion button {padding: 2px!important; margin: 0px!important; font-size: 14px;} 
+.card-body {padding: 4px!important; margin: 0px!important;} 
+
+.kontencenter{ font-size: 18px!important;}
+.sidebar a {font-size: 16px!important;padding-bottom: 0px!important; padding-top: 0px!important;  }
+.sidebar li { padding-left: 0px!important; list-style-type:square!important;}
+.card-header a {font-size: 14px!important;font-weight: bold!important;  padding-bottom: 3px!important; padding-top: 3px!important; }
+@media (max-width: 705px) { 
+    .brandtitle { font-size: 21px!important;font-weight: bold!important; }
+    .kontencenter{ font-size: 18px!important;} 
+    .sidebar {top: 5rem!important;}
+    .sidebar a {font-size: 18px!important;padding-bottom: 2px!important; padding-top: 2px!important;  }
+  }
